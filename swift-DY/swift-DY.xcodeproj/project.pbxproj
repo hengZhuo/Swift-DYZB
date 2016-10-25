@@ -10,10 +10,9 @@
 		366999E11DBF331A00631BC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366999E01DBF331A00631BC6 /* AppDelegate.swift */; };
 		366999E31DBF331A00631BC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366999E21DBF331A00631BC6 /* ViewController.swift */; };
 		366999E61DBF331A00631BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366999E41DBF331A00631BC6 /* Main.storyboard */; };
-		366999E81DBF331A00631BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366999E71DBF331A00631BC6 /* Assets.xcassets */; };
-		366999EB1DBF331A00631BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366999E91DBF331A00631BC6 /* LaunchScreen.storyboard */; };
 		366999F61DBF331B00631BC6 /* swift_DYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366999F51DBF331B00631BC6 /* swift_DYTests.swift */; };
 		36699A011DBF331B00631BC6 /* swift_DYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36699A001DBF331B00631BC6 /* swift_DYUITests.swift */; };
+		36699A151DBF45DB00631BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36699A141DBF45DB00631BC6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		366999E01DBF331A00631BC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		366999E21DBF331A00631BC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		366999E51DBF331A00631BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		366999E71DBF331A00631BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		366999EA1DBF331A00631BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366999EC1DBF331A00631BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		366999F11DBF331B00631BC6 /* swift-DYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-DYTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		366999F51DBF331B00631BC6 /* swift_DYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_DYTests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,7 @@
 		366999FC1DBF331B00631BC6 /* swift-DYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-DYUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36699A001DBF331B00631BC6 /* swift_DYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_DYUITests.swift; sourceTree = "<group>"; };
 		36699A021DBF331B00631BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36699A141DBF45DB00631BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +98,8 @@
 				366999E01DBF331A00631BC6 /* AppDelegate.swift */,
 				366999E21DBF331A00631BC6 /* ViewController.swift */,
 				366999E41DBF331A00631BC6 /* Main.storyboard */,
-				366999E71DBF331A00631BC6 /* Assets.xcassets */,
-				366999E91DBF331A00631BC6 /* LaunchScreen.storyboard */,
 				366999EC1DBF331A00631BC6 /* Info.plist */,
+				36699A141DBF45DB00631BC6 /* Assets.xcassets */,
 			);
 			path = "swift-DY";
 			sourceTree = "<group>";
@@ -235,8 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				366999EB1DBF331A00631BC6 /* LaunchScreen.storyboard in Resources */,
-				366999E81DBF331A00631BC6 /* Assets.xcassets in Resources */,
+				36699A151DBF45DB00631BC6 /* Assets.xcassets in Resources */,
 				366999E61DBF331A00631BC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +301,6 @@
 				366999E51DBF331A00631BC6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		366999E91DBF331A00631BC6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				366999EA1DBF331A00631BC6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,8 +401,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = 4S8SL9JBYF;
 				INFOPLIST_FILE = "swift-DY/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.heng.swift-DY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,8 +416,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = 4S8SL9JBYF;
 				INFOPLIST_FILE = "swift-DY/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.heng.swift-DY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +504,7 @@
 				36699A071DBF331B00631BC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36699A081DBF331B00631BC6 /* Build configuration list for PBXNativeTarget "swift-DYTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +513,7 @@
 				36699A0A1DBF331B00631BC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36699A0B1DBF331B00631BC6 /* Build configuration list for PBXNativeTarget "swift-DYUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +522,7 @@
 				36699A0D1DBF331B00631BC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
